@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngageFlow - Empower Your Business with Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+        <div class="logo">
+            <img src="EngageFlow_Logo.png" alt="EngageFlow Logo">
+        </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')" class="active">Home</a></li>
+                <li><a href="#" onclick="showPage('services')">Services</a></li>
+                <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+            <!-- Mobile menu toggle -->
+            <div class="menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- HOME PAGE -->
+        <div id="home" class="page active">
+            <div class="hero">
+                <h1>Empower Your Business with Customized Technology Solutions</h1>
+                <p>EngageFlow delivers end-to-end digital solutions including website development, software development, and cloud management services to drive your business forward.</p>
+                <a href="#" class="cta-button" onclick="showPage('services')">Explore Our Services</a>
+            </div>
+            
+            <h2 class="section-title">Who We Are</h2>
+            <p class="section-subtitle">
+                EngageFlow is a technology company focused on providing end-to-end digital solutions that enhance efficiency, improve customer interactions, and drive innovation. We specialize in bridging the gap between technology and business needs with scalable, user-centric solutions.
+            </p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>🌐 Website & Software Development</h3>
+                    <p>Custom solutions tailored to your business needs, from responsive websites to complex business applications.</p>
+                </div>
+                <div class="service-card">
+                    <h3>☁️ Cloud Management Services</h3>
+                    <p>Comprehensive cloud infrastructure setup, optimization, and security monitoring for modern businesses.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🤖 AI-Powered Solutions</h3>
+                    <p>Leverage artificial intelligence for automation, analytics, and insights to stay ahead of the competition.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICES PAGE -->
+        <div id="services" class="page">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">
+                We provide comprehensive digital solutions designed to transform your business operations and drive growth through technology.
+            </p>
+            
+            <div class="services-grid">
+                <!-- Website Development & Monitoring -->
+                <div class="service-card">
+                    <h3>🌐 Website Development & Monitoring</h3>
+                    <ul>
+                        <li>Custom website design and development</li>
+                        <li>Website maintenance and performance monitoring</li>
+                        <li>AI-driven analytics for user engagement tracking</li>
+                        <li>Responsive design for all devices</li>
+                        <li>SEO optimization and performance enhancement</li>
+                    </ul>
+                </div>
+
+                <!-- Custom Software Development -->
+                <div class="service-card">
+                    <h3>💻 Custom Software Development</h3>
+                    <ul>
+                        <li>Business management applications (CRM, sales tracking)</li>
+                        <li>Client request management systems</li>
+                        <li>AI-powered applications for automation and insights</li>
+                        <li>Industry-specific solutions (tender management, financial dashboards)</li>
+                        <li>Low-code/no-code solutions for rapid deployment</li>
+                    </ul>
+                </div>
+
+                <!-- Cloud Management Services -->
+                <div class="service-card">
+                    <h3>☁️ Cloud Management Services</h3>
+                    <ul>
+                        <li>Azure device management (Microsoft Intune & Entra ID)</li>
+                        <li>Cloud infrastructure setup and optimization</li>
+                        <li>Cloud security and compliance monitoring</li>
+                        <li>Cloud-based AI and data analytics solutions</li>
+                        <li>Migration and scaling services</li>
+                    </ul>
+                </div>
+
+                <!-- AI & Analytics -->
+                <div class="service-card">
+                    <h3>🤖 AI & Analytics Solutions</h3>
+                    <ul>
+                        <li>AI-powered business automation</li>
+                        <li>Data analytics and business intelligence</li>
+                        <li>Machine learning model development</li>
+                        <li>Predictive analytics for business insights</li>
+                        <li>Custom AI integration for existing systems</li>
+                    </ul>
+                </div>
+
+                <!-- Business Consulting -->
+                <div class="service-card">
+                    <h3>📊 Digital Transformation Consulting</h3>
+                    <ul>
+                        <li>Technology strategy and roadmap development</li>
+                        <li>Process optimization and automation</li>
+                        <li>Digital transformation planning</li>
+                        <li>Technology stack recommendations</li>
+                        <li>Project management and implementation</li>
+                    </ul>
+                </div>
+
+                <!-- Support & Maintenance -->
+                <div class="service-card">
+                    <h3>🔧 Support & Maintenance</h3>
+                    <ul>
+                        <li>System updates and patches</li>
+                        <li>Performance monitoring and optimization</li>
+                        <li>Security audits and vulnerability assessments</li>
+                        <li>Training and knowledge transfer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT US PAGE -->
+        <div id="about" class="page">
+            <h2 class="section-title">About EngageFlow</h2>
+            <p class="section-subtitle">
+                Empowering businesses through innovative technology solutions and collaborative partnerships.
+            </p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>EngageFlow is a digital solutions provider specializing in web development, business software solutions, and cloud-based services. Our mission is to empower businesses with customized technology solutions that enhance efficiency, improve customer interactions, and drive innovation.</p>
+                    
+                    <h3>Our Focus</h3>
+                    <p>We cater to startups, small and medium enterprises (SMEs), and growing businesses seeking to leverage digital transformation. With a strong focus on collaboration and user-centric design, we deliver high-quality solutions tailored to each client's unique needs.</p>
+                    
+                    <h3>Our Approach</h3>
+                    <p>We believe in building long-term partnerships with our clients. Our approach combines cutting-edge technology with practical business solutions, ensuring that every project delivers measurable value and drives real business growth.</p>
+                </div>
+                
+                <div class="why-choose-us">
+                    <h3>Why Choose EngageFlow?</h3>
+                    <ul>
+                        <li><strong>End-to-End Solutions:</strong> From concept to deployment and ongoing support</li>
+                        <li><strong>Cutting-Edge Technology:</strong> AI-powered solutions and modern development practices</li>
+                        <li><strong>Scalable Solutions:</strong> Technology that grows with your business</li>
+                        <li><strong>Expert Team:</strong> Skilled professionals with industry experience</li>
+                        <li><strong>Client-Centric Approach:</strong> Solutions tailored to your specific needs</li>
+                        <li><strong>Proven Track Record:</strong> Successful projects across various industries</li>
+                        <li><strong>Ongoing Support:</strong> Continuous maintenance and optimization</li>
+                        <li><strong>Competitive Pricing:</strong> Value-driven solutions that fit your budget</li>
+                        <li><strong>Agile Development:</strong> Flexible processes that adapt to changing requirements</li>
+                        <li><strong>Innovation Focus:</strong> Staying ahead with the latest technologies and trends</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT PAGE -->
+        <div id="contact" class="page">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">
+                Ready to transform your business with cutting-edge technology? Get in touch with our team of experts.
+            </p>
+            
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>📧 Email Us</h3>
+                    <p>Send us your project details and requirements</p>
+                    <a href="mailto:info@engageflow.com">info@engageflow.com</a>
+                    <br><br>
+                    <a href="mailto:projects@engageflow.com">projects@engageflow.com</a>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>📱 Call Us</h3>
+                    <p>Speak directly with our team</p>
+                    <a href="tel:+27817954600">+27 81 795 4600</a>
+                    <br><br>
+                    <a href="tel:+27623530708">+27 62 353 0708</a>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>🌍 Location</h3>
+                    <p>We work remotely to provide you with the best service worldwide</p>
+                    <strong>Remote Operations</strong>
+                    <p>Delivering excellence from anywhere</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>⏰ Business Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p>Saturday: Closed </p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EngageFlow. All rights reserved. | Empowering businesses through innovative technology solutions.</p>
+    </footer>
+<script src="Interaction.js"></script>
+</body>
+</html>
